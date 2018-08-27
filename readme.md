@@ -10,4 +10,6 @@
 - Open Package Manager Console and select "Default project: UmbracoHomeWork" and type following in console
     -   add-migration initialcreate
     -   update-database
-- Database is now created with 100 random serial-numbers and the application is ready for use
+    -   Database is now created and seeded
+- You can now start the soulution
+
