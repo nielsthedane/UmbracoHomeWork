@@ -11,5 +11,5 @@
     -   add-migration initialcreate
     -   update-database
     -   Database is now created and seeded
-- You can now start the soulution
+- You can now start the project
 
