@@ -3,9 +3,17 @@
 @{
     ViewData["Title"] = "Home Page";
 }
-
-<div class="row">
-    <div class="col-md-4">
+<div align="center">
+    <h2>Welcome to yearly prize draw!</h2>
+    
+    Terms of service:
+    <ul>
+        <li>You can enter the draw two times per serial number</li>
+        <li>You must be atleast 18 years old</li>
+    </ul>
+</div>
+<div class="row" align="center">
+    <div class="form" style="width: 300px">
         <form asp-action="Index">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">

@@ -1,0 +1,44 @@
+﻿@model IEnumerable<UmbracoClassLibary.Models.Submission>
+
+<h2>Submissions</h2>
+
+<table class="table table-bordered">
+    <thead>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.FirstName)
+        </th>
+            
+        <th>
+            @Html.DisplayNameFor(model => model.LastName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Email)
+        </th>
+            
+        <th>
+            @Html.DisplayNameFor(model => model.SerialNumber)
+        </th>
+           
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var submission in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => submission.FirstName) 
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => submission.LastName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => submission.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => submission.SerialNumber)
+            </td>
+        </tr>   
+    }
+    </tbody>
+</table>

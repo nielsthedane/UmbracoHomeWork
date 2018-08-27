@@ -38,6 +38,7 @@ namespace UmbracoHomework
             //Todo: connection string in configuration file
             var connection = @"Server=(localdb)\mssqllocaldb;Database=PrizeDrawDb;Trusted_Connection=True;ConnectRetryCount=0";
             services.AddDbContext<PrizeDrawContext>(options => options.UseSqlServer(connection, b => b.MigrationsAssembly("UmbracoHomework")));
+            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
