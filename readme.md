@@ -2,7 +2,7 @@
 
 ### Prerequisites
 
-- .Net Core 2.1
+- .Net Core 2.1 SDK
 - Visual studio version above 15.7
 ### Installation
 - Clone repository
